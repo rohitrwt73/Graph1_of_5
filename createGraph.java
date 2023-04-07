@@ -31,7 +31,7 @@ public class createGraph {
     graph[3].add(new Edge(3,2,1));
     graph[3].add(new Edge(3,1,3));
     //4 vertex
-    graph[4].add(new Edge(4,2,2));
+    graph[6].add(new Edge(4,2,2));
     //now how to store info of neighbour
     //2's neighbour
     for(int i=0;i<graph[2].size();i++){
