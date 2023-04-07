@@ -38,7 +38,7 @@ public class BFStraversal {
         graph[5].add(new Edge(5,4,1));
         graph[5].add(new Edge(5,6,1));
         //6 vertex
-        graph[4].add(new Edge(6,5,1));
+        graph[6].add(new Edge(6,5,1));
     }
     public static void bfs(ArrayList<Edge>[]graph){  //O(V+E),V=no. of vertices,E=edges
         Queue<Integer> q= new LinkedList<>();
